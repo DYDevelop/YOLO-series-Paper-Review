@@ -32,6 +32,10 @@ Paper Review -> [Notion](https://flashy-skipjack-375.notion.site/YOLO9000-Better
 
 ## YOLOv3: An Incremental Improvement
 
+<p align="center">
+    <img width="100%" src="YOLOv3.png" style="max-width:100%;"></a>
+</p>
+
 Main Ideas
 - Bounding box Prediction
 - Class Prediction

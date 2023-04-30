@@ -1,5 +1,5 @@
 ﻿# YOLO-series-Paper-Review
-IVPG Lab interns seminar - YOLO Papar Review
+IVPG Lab intern seminar - YOLO Papar Review
 
 ## You Only Look Once: Unified, Real-Time Object Detection
 

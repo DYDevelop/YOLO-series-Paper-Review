@@ -45,6 +45,10 @@ Code Review -> [Notion](https://flashy-skipjack-375.notion.site/YOLOv3-Python-Co
 
 ## YOLOv4: Optimal Speed and Accuracy of Object Detection
 
+<p align="center">
+    <img width="100%" src="YOLOv4.png" style="max-width:100%;"></a>
+</p>
+
 - 대부분 CNN 기반 object dectector들은 추천하는 환경에서만 적용이 가능하여 제한적이었음.
 본 논문은 생산 시스템에서 빠른 속도로 동작하는 object detector를 만들고 이를 병렬 계산에 최적화  하고자 함.
 1080Ti 나 2080Ti GPU처럼 일반인들도 구할 수 있는 단일 GPU로도 빠르고 좋은 실시간 object dectector를 만들고자 함.

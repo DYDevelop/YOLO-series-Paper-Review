@@ -39,6 +39,7 @@ Main Ideas
 - Feature Extractor
 
 Paper Review -> [Notion](https://flashy-skipjack-375.notion.site/YOLOv3-An-Incremental-Improvement-cb9b87d760e24feda17e36b67223fb54)
+
 Code Review -> [Notion](https://flashy-skipjack-375.notion.site/YOLOv3-Python-Code-1c2be43f94ff4d66b38f6ee476d95c77)
 
 

@@ -4,7 +4,7 @@ IVPG Lab interns seminar - YOLO Papar Review
 ## You Only Look Once: Unified, Real-Time Object Detection
 
 <p align="center">
-    <img width="100%" src="IMAGES/One and Two.png" style="max-width:100%;"></a>
+    <img width="100%" src="One and Two.png" style="max-width:100%;"></a>
 </p>
 
 - RCNN, SPP, Fast RCNN, Faster RCNN 모델은 Two-Stage 모델입니다. 여기서 Two란, 위의 오른쪽 그림처럼 Region Proposal과 Object Detection 단계를 분리해 전개되는 모델들을 말합니다. 반면에 YOLO와 같은 One-Stage 종류의 모델들은 Region Proposal 과 Object Detection을 따로 분리하지 않고 한 번에 수행하는 모델입니다.

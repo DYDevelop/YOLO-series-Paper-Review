@@ -18,3 +18,41 @@ IVPG Lab interns seminar - YOLO Papar Review
 그런데 Two-Stage 모델들은 탐지 성능은 뛰어나지만 상대적으로 탐지 속도는 매우 느린 편입니다. 따라서 연구자들은 이러한 느린 탐지 속도문제를 해결하고자 One-Stage 모델인 YOLO(You Only Look Once)라는 Real-Time Object Detection을 개발했습니다.
 
 Paper Review -> [Notion](https://flashy-skipjack-375.notion.site/You-Only-Look-Once-Unified-Real-Time-Object-Detection-0c29049703f747ce8f83ddda73171d32)
+
+
+## YOLO9000: Better, Faster, Stronger
+
+<p align="center">
+    <img width="100%" src="Anchor.png" style="max-width:100%;"></a>
+</p>
+
+- 전에는 Detection과 Classification을 따로 진행함. 함께 학습시키는 방법을 제안 이를 통해 Detection Dataset에 존재하지 않는 Label들에 대해 예측이 가능, 여전히 빠른 실행 속도를 유지, 9000개 이상의 Classes에 대해 예측
+
+Paper Review -> [Notion](https://flashy-skipjack-375.notion.site/YOLO9000-Better-Faster-Stronger-f187bda866774a8d8714260de6d26c6c)
+
+## YOLOv3: An Incremental Improvement
+
+Main Ideas
+- Bounding box Prediction
+- Class Prediction
+- Prediction across scales
+- Feature Extractor
+
+Paper Review -> [Notion](https://flashy-skipjack-375.notion.site/YOLOv3-An-Incremental-Improvement-cb9b87d760e24feda17e36b67223fb54)
+Code Review -> [Notion](https://flashy-skipjack-375.notion.site/YOLOv3-Python-Code-1c2be43f94ff4d66b38f6ee476d95c77)
+
+
+## YOLOv4: Optimal Speed and Accuracy of Object Detection
+
+- 대부분 CNN 기반 object dectector들은 추천하는 환경에서만 적용이 가능하여 제한적이었음.
+본 논문은 생산 시스템에서 빠른 속도로 동작하는 object detector를 만들고 이를 병렬 계산에 최적화  하고자 함.
+1080Ti 나 2080Ti GPU처럼 일반인들도 구할 수 있는 단일 GPU로도 빠르고 좋은 실시간 object dectector를 만들고자 함.
+
+- 본 논문의 목적 세줄 요약
+    1. 효율적이며 강력한 object detection model을 개발: 1080 Ti 또는 2080 Ti GPU를 사용하는 누구나 상당히 빠른 속도로 training이 가능하며,    정확한 object detector를 사용 가능
+    2. detector를 training하는 동안 사용될 수 있는 최신의 Bag-of-Freebies 및 Bag-of-Specials 기법들이 주는 영향에 대해 검증
+    3. 단일 GPU training에 보다 효율적이며 적합하도록, CBN, PAN, SAM 등을 포함한 최신의 기법들을 수정
+
+Paper Review -> [Notion](https://flashy-skipjack-375.notion.site/YOLOv4-Optimal-Speed-and-Accuracy-of-Object-Detection-b050dfdeeb2747b4bed478e8eb2b3229)
+
+
